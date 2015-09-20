@@ -1,6 +1,7 @@
-## Project description
+## Sinatra Skeleton
+A minimal simple starter kit for your next web/sinatra project.
 
-## Starting the puma server
+#### Starting the puma server
 You may need to change puma settings in puma.rb.
 
 Then run the follow command (project directory)
