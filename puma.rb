@@ -1,4 +1,4 @@
-root = "/home/rkjha/sinatra_skeleton"
+root = "~/#{ENV[$USER]}/sinatra_skeleton"
 
 bind "unix://#{root}/tmp/puma/socket/"
 pidfile "#{root}/tmp/puma/pid"
