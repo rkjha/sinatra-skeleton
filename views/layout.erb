@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title><%= @title %></title>
+
+    <!-- styles -->
+    <link href="/stylesheets/style.css" media="screen" rel="stylesheet" type="text/css" />
+
+  </head>
+
+  <body>
+
+    <!-- header starts here -->
+    <%= erb(:'_header', :layout => false) %>
+    <!-- end of header -->
+
+    <!-- main content -->
+    <%= yield %>
+
+    <!-- footer starts here -->
+    <%= erb(:'_footer', :layout => false) %>
+    <!-- footer ends here -->
+
+    <!-- Analytics -->
+
+  </body>
+</html>
