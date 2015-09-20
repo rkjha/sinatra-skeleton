@@ -2,8 +2,11 @@
 A minimal simple starter kit for your next web/sinatra project.
 
 #### Starting the puma server
-You may need to change puma settings in puma.rb.
+You may need to change puma settings(depending on where your project files are located 
+as compare to home directory) in puma.rb.
 
-Then run the follow command (project directory)
+Run these commands to get the sinatra dev server running on port 4567. 
 
-shotgun -p 4567 -s puma
+> bundle
+
+> shotgun -p 4567 -s puma
